@@ -1,1 +1,30 @@
 
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- lien vers style -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Accueil</a></li>
+		        	<li><a href="/about">À propos</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blogue</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		Ma page a un pied.
+				</ul>
+			</footer>
+		</body>
+	</html>
